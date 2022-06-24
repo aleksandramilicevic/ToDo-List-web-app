@@ -1,0 +1,20 @@
+to create virtual env
+
+$  python -m venv env  
+We go to view - pallete - 
+   Select interpretuer >>>>  .env/Scripts/python.exe
+$ env\Scripts\activate.bat
+(And env will be turned on or whatever u name ur venv folder)
+
+to run the main code we need to run in terminal python main.py
+
+$ pip install flask flask-sqlalchemy
+$ pip install pymysql
+
+*Creating ann app and db model and going to command line and activating interactive python shell
+by simply typing in "python", >>> these 3 lines shall show app and then we shall write down
+>>> from app import db
+>>>db.create_all()
+>>> exit()
+and are test db is gonna be created
+
